@@ -2,7 +2,7 @@
 uri: domain.com
 url: https://domain.com
 name: Nathan Ju
-title: Nathan 🚂
+title: Nathan Ju 🚂
 email: example@domain.com
 author: username
 baseurl: ""
@@ -29,4 +29,4 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-remote_theme: dikiaap/mangan
+remote_theme: 34ndju/mangan
