@@ -1,0 +1,68 @@
+---
+layout: default
+---
+      <div class="home">
+        <div class="content-col-wrapper">
+          <div class="content-col">
+            <div class="dummy">
+              <b><span class="big">Hi</span></b> {{ site.short_intro }}
+              <br> {{ site.description }}
+              <br> Previously <a href="http://www.8vcfellowship.com">8VC Fellow</a> & Software at <a href="https://www.nylas.com">Nylas</a>.
+              <br> {{ site.now }}
+              <br><br>
+              👓 <b><span class="big">View</span></big_1><br>
+
+              <div class="photos">
+                <a href="https://i.pinimg.com/originals/ee/e6/12/eee612511baa2fb9c2660056f111a1c6.jpg" class="p0 photo" target="_blank">
+                  <img alt="Soviet Turbojet Trains" src="https://i.pinimg.com/originals/ee/e6/12/eee612511baa2fb9c2660056f111a1c6.jpg">
+                </a>
+                <a href="https://natedsanders.com/ItemImages/000031/47689_lg.jpeg" class="p1 photo" target="_blank">
+                  <img alt="The Illustrated Man" src="https://natedsanders.com/ItemImages/000031/47689_lg.jpeg">
+                </a>
+                <a href="http://1.bp.blogspot.com/-AkSDCSjENcA/Tql6yr9-IxI/AAAAAAAAEUU/wzQrLDFKKWQ/s1600/Felipe+V.jpg" class="p2 photo" target="_blank">
+                  <img alt="Felipe V, Upside Down" src="http://1.bp.blogspot.com/-AkSDCSjENcA/Tql6yr9-IxI/AAAAAAAAEUU/wzQrLDFKKWQ/s1600/Felipe+V.jpg">
+                </a>
+                <a href="{{ site.baseurl }}/images/jiufen.jpg" class="p3 photo" target="_blank">
+                  <img alt="九份 (I took this)" src="{{ site.baseurl }}/images/jiufen.jpg">
+                </a>
+                <a href="https://static.tvtropes.org/pmwiki/pub/images/red_herring1.png" class="p4 photo" target="_blank">
+                  <img alt="A red herring" src="https://static.tvtropes.org/pmwiki/pub/images/red_herring1.png">
+                </a>
+                <a href="https://consequenceofsound.files.wordpress.com/2015/12/tarantino-feature.png?w=807" class="p5 photo" rarget="-blank">
+                    <img alt="Tarantino" src="https://consequenceofsound.files.wordpress.com/2015/12/tarantino-feature.png?w=807">
+                </a>
+                <div class="caption c0">Soviet Turbojet Train</div>
+                <div class="caption c1">The Illustrated Man</div>
+                <div class="caption c2">Felipe V, Upside Down</div>
+                <div class="caption c3">九份 (I took this)</div>
+                <div class="caption c4">A red herring</div>
+                <div class="caption c5">Tarantino</div>
+              </div><br>
+
+              📖 <b><span class="big">Read</span></big_1><br>
+              <div class="read">
+                <a href="https://bookshelf.website/34ndju/mixes/k18ii/hello">Bookshelf</a>
+              </div><br>
+
+              <div class="dummy blogpost">
+                ✍ <span class="big">Write</span>
+              </div>
+            </div><p></p><p></p>
+              <ul class="post-list">{% for post in paginator.posts %}
+                <li class="titlepost">
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </li>
+                <li class="datepost">
+                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+                </li>{% endfor %}
+              </ul>
+          </div>
+        </div>{% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}">
+            <b><span class="big">previous page</span></b>
+          </a>{% else %}{% endif %}{% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}">
+            <b><span class="big">next page</span></b>
+          </a>{% else %}{% endif %}
+        {% include nav.html %}
+      </div>
