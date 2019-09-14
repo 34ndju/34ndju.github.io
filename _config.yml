@@ -8,8 +8,8 @@ author: username
 baseurl: ""
 keywords: "Your, Keyword, Here"
 short_intro: "I'm Nathan"
-description: "CS student and researcher at Illinois."
-now: "A fan of abstractions, public transportation, history, the Internet, software, terse writing (working on that), and trains. 🚂"
+description: "I'm currently a computer science student at UIUC."
+now: "My interests lie in transportation history, computational complexity, and quantum information theory. In particular, I study the resource theory of magic states, in which I think about information theory, computability, and their applications to fault-tolerant quantum computing."
 
 twitter_username: nathanju34
 github_username: 34ndju
