@@ -5,13 +5,13 @@
     <description>I'm currently a computer science student at UIUC.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Nov 2019 21:31:31 -0600</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 21:31:31 -0600</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2019 21:32:19 -0600</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 21:32:19 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Cliffords in constant depth</title>
-        <description>&lt;p&gt;Daniel Grier and Luke Schaeffer released a wonderful &lt;a href=&quot;paper&quot;&gt;https://arxiv.org/pdf/1911.02555.pdf&lt;/a&gt; on arXiv recently. In it, they  highlight some surprisingly stronger separations
+        <description>&lt;p&gt;Daniel Grier and Luke Schaeffer released a wonderful &lt;a href=&quot;https://arxiv.org/pdf/1911.02555.pdf&quot;&gt;paper&lt;/a&gt; on arXiv recently. In it, they  highlight some surprisingly stronger separations
 between QNC&lt;sup&gt;0&lt;/sup&gt;, constant depth quantum circuits, and other classes of constant and logarithmic depth classical circuits. For background, 
 Bravyi, et al.’s major result two years ago was a strict separation between QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;0&lt;/sup&gt; by a problem called the “Hidden
 Linear Function problem.” But Grier and Schaeffer prove a stronger and surprising separation between  QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;1&lt;/sup&gt;, 
