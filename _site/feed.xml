@@ -5,9 +5,33 @@
     <description>I'm currently a computer science student at UIUC.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Sep 2019 12:03:35 -0500</pubDate>
-    <lastBuildDate>Sat, 14 Sep 2019 12:03:35 -0500</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2019 21:31:31 -0600</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 21:31:31 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Cliffords in constant depth</title>
+        <description>&lt;p&gt;Daniel Grier and Luke Schaeffer released a wonderful &lt;a href=&quot;paper&quot;&gt;https://arxiv.org/pdf/1911.02555.pdf&lt;/a&gt; on arXiv recently. In it, they  highlight some surprisingly stronger separations
+between QNC&lt;sup&gt;0&lt;/sup&gt;, constant depth quantum circuits, and other classes of constant and logarithmic depth classical circuits. For background, 
+Bravyi, et al.’s major result two years ago was a strict separation between QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;0&lt;/sup&gt; by a problem called the “Hidden
+Linear Function problem.” But Grier and Schaeffer prove a stronger and surprising separation between  QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;1&lt;/sup&gt;, 
+logarithmic depth bounded fan-in classical circuits. And it was my first time seeing the use of Barrington’s Theorem, and it’s amazing just how 
+general but powerful it is!&lt;/p&gt;
+
+&lt;p&gt;In it they point to a fairly old theorem in measurement-based quantum computation which I was even more surprised by. In short, it’s that
+any Clifford circuit can be implemented in constant depth by preparation of a constant degree grid state and constant depth MBQC. Clifford circuits are just
+so rich.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Nov 2019 00:09:00 -0600</pubDate>
+        <link>http://localhost:4000/post/constant-cliffords</link>
+        <guid isPermaLink="true">http://localhost:4000/post/constant-cliffords</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Simons Awardee Videos</title>
