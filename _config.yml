@@ -30,3 +30,9 @@ plugins:
   - jemoji
 
 remote_theme: 34ndju/mangan
+
+defualts:
+  - scope: 
+        path: "assets"
+        values:
+        image: true
