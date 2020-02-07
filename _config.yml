@@ -8,8 +8,8 @@ author: username
 baseurl: ""
 keywords: "Your, Keyword, Here"
 name: "Nathan Ju"
-description: "I am in the thid year of my undergraduate studies in computer science and mathematics at the University of Illinois."
-now: "I am boradly interested in theoretical computer science and quantum information theory. "
+description: "I'm currently a computer science student at UIUC."
+now: "I'm interested in transportation history, computational complexity, and quantum information theory. In particular, I study the resource theory of magic states, in which I think about information theory, computability, and their applications to fault-tolerant quantum computing."
 
 twitter_username: nathanju34
 github_username: 34ndju
