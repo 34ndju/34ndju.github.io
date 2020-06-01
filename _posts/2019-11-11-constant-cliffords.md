@@ -13,5 +13,4 @@ logarithmic depth bounded fan-in classical circuits. And it was my first time se
 general but powerful it is! 
 
 In it they point to a fairly old theorem in measurement-based quantum computation which I was even more surprised by. In short, it's that
-any Clifford circuit can be implemented in constant depth by preparation of a constant degree grid state and constant depth MBQC. Clifford circuits are just
-so rich.
+any Clifford circuit can be implemented in constant depth by preparation of a constant degree grid state and constant depth MBQC if you're willing to incur detectable Pauli errors. 
