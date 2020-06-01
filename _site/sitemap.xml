@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/post/transportation-time-saving-fallacy</loc>
+<loc>https://domain.com/post/transportation-time-saving-fallacy</loc>
 <lastmod>2018-08-12T01:09:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/post/simons</loc>
+<loc>https://domain.com/post/simons</loc>
 <lastmod>2019-05-10T01:09:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/post/constant-cliffords</loc>
+<loc>https://domain.com/post/constant-cliffords</loc>
 <lastmod>2019-11-11T00:09:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://domain.com/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects</loc>
+<loc>https://domain.com/projects</loc>
 </url>
 <url>
-<loc>http://localhost:4000/addendum.pdf</loc>
+<loc>https://domain.com/addendum.pdf</loc>
 <lastmod>2020-02-06T20:00:14-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/assets/addendum.pdf</loc>
+<loc>https://domain.com/assets/addendum.pdf</loc>
 <lastmod>2020-02-06T20:00:14-06:00</lastmod>
 </url>
 </urlset>
