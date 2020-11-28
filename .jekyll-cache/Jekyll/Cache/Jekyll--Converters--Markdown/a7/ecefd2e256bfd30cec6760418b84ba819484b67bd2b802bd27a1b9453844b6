@@ -1,0 +1,45 @@
+I"|<p>We want to believe in a future where the asymptotic behavior of time spent in draining traffic and crowded subways approaches zero. “Imagine reducing [the] 90-plus minute stop-and-go…to a mere six minutes,” says Uber with its dreams of VTOL vehicles<sup>[1]</sup>. “Choose a route and see how much time [you] can save,” says Hyperloop<sup>[2]</sup>. Because advancing faster transportation equates to shorter transportation times, right?</p>
+
+<p>But that’s the transportation time-saving fallacy. Faster transportation does not equate to shorter transportation time.</p>
+
+<p>With the invention and booming sales of the safety and standard bicycles of the nineteenth century, cities saw urban radius [note: multi-centric city model may be more accurate] expansion as populations moved farther away from city centers. As an interesting side effect, the likelihood of young adults meeting future spouses outside of their municipalities increased<sup>[3]</sup>. Rates of intra-family marriage decreased, and average distance of origin between spouses expanded from 1 to 10 miles<sup>[4]</sup>. People were moving much faster on their two-wheeled vehicles (<a href="https://en.wikipedia.org/wiki/Draisine">and weren’t pushing off the ground with their feet this time</a>), and that allowed them to move farther away from urban epicenters.</p>
+
+<p>This is Marchetti’s Constant (a misnomer because Marchetti credits the initial study to Yacov Zahavi<sup>[5]</sup>). As our means of transportation improve—whether that be extensive subway networks or manually pedaled two-wheelers—urban sprawl expands with minimal travel time delta. Models of metropolitan Chicago from 2000-2030 show increases of 24% in population and 19% in urbanized land coupled with a mere increase of transportation time from 30 to 31.7 minutes<sup>[6]</sup>. Very telling is the positive relationship between population density and low-speed public transportation across regions. North American cities’ low-speed transport modes account for 8% of total mobility. European cities’ densities are 4x that and low-speed accounts for 19% of mobility. Asian cities’ densities are 3x that of Europe’s and low-speed accounts for 30% of mobility<sup>[7]</sup>. Further illustrated:</p>
+
+<p><img src="/images/ttsf1.png" alt="" /></p>
+<center>Fig. 1 <sup>[7]</sup></center>
+
+<p>Transport’s monetary spend is relatively stable as well: As household food expenditure has decreased over the past decades, spend on transportation costs has remained in its same bracketing. Households with no cars at 3-5% and one or more cars at 10-15%.<sup>[8]</sup> Zahavi calls these constants Travel Time Budget (TTB) and Travel Money Budget (TMB).</p>
+
+<p><img src="/images/ttsf2.png" alt="" /></p>
+<center>Fig. 2 <sup>[8]</sup></center>
+
+<p>The more interesting question to be asked is surrounding why this happens, and my hypothesis is around two main pillars:</p>
+
+<ol>
+  <li>Path Dependence and Lock-in
+    <ul>
+      <li>Switching costs for transportation infrastructure is much higher than that of other technologies. The incremental improvement of traditional railway locomotive to HSR (high speed rail) locomotives requires $1.3M/mi to support the jump from 60 to 110 mph. When topographic conditions require additional clearing, this can hike to $15M/mi<sup>[9]</sup>, as was the case when the dominant transportation medium shifted from canal to railway. These projects require extreme magnitudes of allocation of capital, so transportation norms stay for extended periods of time, and are “locked in” for periods of ~50 years.</li>
+    </ul>
+  </li>
+  <li>Housing-Transportation Symmetry
+    <ul>
+      <li>Transportation and Housing spend are largely symmetrical in that the two can’t be separated in an analysis of time and monetary spend: Better transportation enables sprawl b/c people are able to move outwards from the [hypothetical] city center to more affordable housing. This requires the assumption that technology doesn’t change society; rather, people develop technologies to address the changes occurring in society<sup>[10]</sup>. Taking this as basis, population concentration within cities (from causes out of scope) allows society to develop faster transportation that adheres to the TTB.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>So whenever new transportation mediums arise, it’s because of two factors: the necessary technology for a quantum leap (prime mover in the past) and the necessary infrastructure for that technology to bloom into an industry<sup>[11]</sup>. But I’d also like to add the modification that because people develop technologies to address the changes occurring in society, there’s a third factor of a necessity arising from inventions. In the case of papyrus and paper, it’s a transition away from spoken word like that of Homer’s pieces towards higher levels of science (the invention) that required greater levels of literacy that couldn’t be conveyed and memorized through speech. Similarly, in the case of transportation, it’s the increase in density of cities allowed by inventions like sewage and other feats of civil engineering that require faster transportation.</p>
+
+<p>[1] <a href="https://www.uber.com/elevate.pdf">https://www.uber.com/elevate.pdf</a><br />
+[2] <a href="https://hyperloop-one.com">https://hyperloop-one.com</a><br />
+[3] <a href="https://www.demographic-research.org/volumes/vol23/33/23-33.pdf">https://www.demographic-research.org/volumes/vol23/33/23-33.pdf</a><br />
+[4] <a href="http://5by5.tv/criticalpath/199">http://5by5.tv/criticalpath/199</a>  <br />
+[5] <a href="http://www.cesaremarchetti.org/archive/electronic/basic_instincts.pdf">http://www.cesaremarchetti.org/archive/electronic/basic_instincts.pdf</a>  <br />
+[6] <a href="https://cloudfront.escholarship.org/dist/prd/content/qt047688kf/qt047688kf.pdf">https://cloudfront.escholarship.org/dist/prd/content/qt047688kf/qt047688kf.pdf</a> <br />
+[7] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0195925596000236">https://www.sciencedirect.com/science/article/abs/pii/S0195925596000236</a> (128)<br />
+[8] <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.5721&amp;rep=rep1&amp;type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.454.5721&amp;rep=rep1&amp;type=pdf</a> (14)<br />
+[9] <a href="https://www.dot.state.mn.us/passengerrail/mwrri/files/Appendix%20E-Cost%20Estimating%20Methodology.pdf">https://www.dot.state.mn.us/passengerrail/mwrri/files/Appendix%20E-Cost%20Estimating%20Methodology.pdf</a> (7)<br />
+[10] <em>Paper</em>, by Mark Kurlansky<br />
+[11] <a href="http://pure.iiasa.ac.at/id/eprint/3351/1/XB-90-704.pdf">http://pure.iiasa.ac.at/id/eprint/3351/1/XB-90-704.pdf</a> (91)</p>
+:ET

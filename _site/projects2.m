@@ -2,35 +2,59 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Nathan Ju 🚂</title>
+    <title>Projects</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="username">
     <meta name="HandheldFriendly" content="True">
     <!--space-->
-    <meta name="description" content="I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program.">
+    <meta name="description" content="    
+      Projects
+      
+        
+      
+      
+    
+  	  Founder Tracker  
+Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
     <!--space-->
-    <meta name="keywords" content="Your, Keyword, Here">
+    <meta name="keywords" content="">
     <meta name="rating" content="general">
     <meta name="robots" content="index,follow">
     <meta name="revisit-after" content="2 days">
     <meta name="language" content="English">
     <meta name="distribution" content="Global">
     <meta property="og:site_name" content="Nathan Ju 🚂">
-    <meta property="og:title" content="Nathan Ju 🚂">
-    <meta property="og:description" content="I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program.">
+    <meta property="og:title" content="Projects">
+    <meta property="og:description" content="    
+      Projects
+      
+        
+      
+      
+    
+  	  Founder Tracker  
+Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
     <meta property="og:image" content="http://i.imgbox.com/FVXzVeXv.png">
     <meta property="twitter:site" content="@">
     <meta property="twitter:site:id" content="2667578047">
     <meta property="twitter:card" content="summary">
-    <meta property="twitter:title" content="Nathan Ju 🚂">
-    <meta property="twitter:description" content="I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program.">
+    <meta property="twitter:title" content="Projects">
+    <meta property="twitter:description" content="    
+      Projects
+      
+        
+      
+      
+    
+  	  Founder Tracker  
+Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
     <meta property="twitter:image:src" content="http://i.imgbox.com/FVXzVeXv.png">
     <link href="/css/main.css" rel="stylesheet" type="text/css">
     <link href="https://plus.google.com/+" rel="author">
     <link href="https://plus.google.com/+" rel="publisher">
     <link href="/favicon.png" rel="icon">
-    <link href="http://localhost:4000/" rel="canonical">
+    <link href="http://localhost:4000/projects2.m" rel="canonical">
     <link rel="alternate" type="application/rss+xml" title="Nathan Ju 🚂" href="http://localhost:4000/feed.xml">
   </head>
 
@@ -69,67 +93,46 @@
   </header>
 
   <div class="page-content">
-    <div class="wrapper">
-      <div class="home">
-        <div class="content-col-wrapper">
-          <div class="content-col">
-            <div class="dummy">
-              <b><span class="big">Nathan Ju</span></b>
-              <br> I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program.
-              <br> I'm interested in the interface of theoretical computer science and quantum information theory.
-              <br><br>
-              👓 <b><span class="big">View</span></big_1><br>
+    <div class="wrapper-fit">
+    <header class="post-header">
+      <h1 class="post-title">Projects</h1>
+      <div class="post-detail">
+        
+      </div>
+      <div class="post-line"></div>
+    </header>
+  	  Founder Tracker  
+Internal tool for [Contrary Capital](https://contrarycap.com) to surface and track university
+founders over time.
 
-              <div class="photos">
-                <a href="https://i.pinimg.com/originals/ee/e6/12/eee612511baa2fb9c2660056f111a1c6.jpg" class="p0 photo" target="_blank">
-                  <img alt="Soviet Turbojet Trains" src="https://i.pinimg.com/originals/ee/e6/12/eee612511baa2fb9c2660056f111a1c6.jpg">
-                </a>
-                <a href="https://natedsanders.com/ItemImages/000031/47689_lg.jpeg" class="p1 photo" target="_blank">
-                  <img alt="The Illustrated Man" src="https://natedsanders.com/ItemImages/000031/47689_lg.jpeg">
-                </a>
-                <a href="http://1.bp.blogspot.com/-AkSDCSjENcA/Tql6yr9-IxI/AAAAAAAAEUU/wzQrLDFKKWQ/s1600/Felipe+V.jpg" class="p2 photo" target="_blank">
-                  <img alt="Felipe V, Upside Down" src="http://1.bp.blogspot.com/-AkSDCSjENcA/Tql6yr9-IxI/AAAAAAAAEUU/wzQrLDFKKWQ/s1600/Felipe+V.jpg">
-                </a>
-                <a href="/images/jiufen.jpg" class="p3 photo" target="_blank">
-                  <img alt="九份 (I took this)" src="/images/jiufen.jpg">
-                </a>
-                <a href="https://static.tvtropes.org/pmwiki/pub/images/red_herring1.png" class="p4 photo" target="_blank">
-                  <img alt="A red herring" src="https://static.tvtropes.org/pmwiki/pub/images/red_herring1.png">
-                </a>
-                <div class="caption c0">Soviet Turbojet Train</div>
-                <div class="caption c1">The Illustrated Man</div>
-                <div class="caption c2">Felipe V, Upside Down</div>
-                <div class="caption c3">九份 (I took this)</div>
-                <div class="caption c4">A red herring</div>
-              </div><br>
+[Alexa Definition Game](https://github.com/jortsquad/alexa-definition-game)  
+Alexa Skill available on Skill Store. Receive a definition, respond with a word.
 
-              <div class="dummy blogpost">
-                ✍ <span class="big">Write</span>
-              </div>
-            </div><p></p><p></p>
-              <ul class="post-list">
-                <li class="titlepost">
-                  <a class="post-link" href="/post/constant-cliffords">Cliffords in constant depth</a>
-                </li>
-                <li class="datepost">
-                  <span class="post-meta">11 Nov 2019</span>
-                </li>
-                <li class="titlepost">
-                  <a class="post-link" href="/post/simons">Simons Awardee Videos</a>
-                </li>
-                <li class="datepost">
-                  <span class="post-meta">10 May 2019</span>
-                </li>
-                <li class="titlepost">
-                  <a class="post-link" href="/post/transportation-time-saving-fallacy">The Transportation Time-saving Fallacy</a>
-                </li>
-                <li class="datepost">
-                  <span class="post-meta">12 Aug 2018</span>
-                </li>
-              </ul>
-          </div>
-        </div>
-        <nav class="site-nav">
+[Professor Search](https://github.com/34ndju/prof-crawler)  
+Helped build the v2 version of [this](http://harrier02.cs.illinois.edu:8080/EntityRank/).
+Contributed to same-type disambiguation and Euclidian coordinate search.
+
+[HQ Bot](https://github.com/rohinb2/hqbot)  
+Automating [HQ Trivia](https://itunes.apple.com/us/app/hq-live-trivia-game-show/id1232278996?mt=8) decision-making
+with the web. Decided to submit it for a school project afterwards. 70% accuracy. Won $5.
+
+[NYT Trends](https://nyttrends.herokuapp.com/)  
+Charting social trends more extensively that Google Trends since 1852.
+
+[IR Algorithms](https://github.com/34ndju/ir-algorithms)  
+Read Christopher Manning's IR [textbook](https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf) for fun. Took some notes.
+
+[Gosset](http://damp-falls-23688.herokuapp.com)  
+Built a company in high school. Sales lead marketplace with 240,000 user-uploaded sales leads. This project got me interested in IR and startups.
+
+      <hr>
+      <div class="post-next">
+      </div>
+      <div class="post-prev">
+      </div>
+
+    </div>
+    <nav class="site-nav">
         <a href="#" class="menu-icon">
           <svg viewBox="0 0 18 15">
             <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -158,9 +161,6 @@
         </div>
         </nav>
 
-      </div>
-
-    </div>
   </div>
 
   <footer class="site-footer">
