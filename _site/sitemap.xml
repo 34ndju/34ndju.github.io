@@ -41,4 +41,8 @@
 <loc>http://localhost:4000/assets/addendum.pdf</loc>
 <lastmod>2020-02-06T20:00:14-06:00</lastmod>
 </url>
+<url>
+<loc>http://localhost:4000/assets/redirecttest.html</loc>
+<lastmod>2020-11-27T18:49:00-06:00</lastmod>
+</url>
 </urlset>
