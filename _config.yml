@@ -36,3 +36,7 @@ defualts:
         path: "assets"
         values:
         image: true
+  - scope:
+        path: "research"
+        values:
+        image: true
