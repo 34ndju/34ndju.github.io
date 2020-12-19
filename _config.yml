@@ -8,8 +8,8 @@ author: username
 baseurl: ""
 keywords: "Your, Keyword, Here"
 name: "Nathan Ju"
-description: "I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program."
-now: "I'm interested in the interface of theoretical computer science and quantum information theory."
+description: "I study computer science at UIUC. Last summer, I worked on problems in quantum complexity theory at the IQC in Waterloo as part of the URA program. I'm interested in computational complexity theory, and TCS more generally."
+now: ""
 
 twitter_username: nathanju34
 github_username: 34ndju

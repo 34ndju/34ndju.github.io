@@ -238,6 +238,8 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    float:left;
+    margin-bottom:3px;
 }
 
 .post-meta {
@@ -269,6 +271,34 @@
     text-align: left;
 }
 
+.titlepaper {
+   /* height: $spacing-unit;*/
+    font-family: $cutive;
+    width: 90%;
+    float: left;
+    padding-top: $spacing-unit / 6;
+}
+
+.authorpaper {
+    height: $spacing-unit;
+    font-family: $vt323;
+    width: 70%;
+    float:left;
+    padding-top: $spacing-unit / 6;
+    text-align: left;
+}
+
+.venuepaper {
+    height: $spacing-unit;
+    font-family: $vt323;
+    font-style: italic;
+    width: 70%;
+    float: left;
+    border-bottom: 1px dashed #E1E2E3;
+    padding-top: $spacing-unit / 18;
+    text-align: left;
+}
+
 .content-col-wrapper {
     font-size: $spacing-unit / 2;
     color: #6C6C6C;
@@ -281,6 +311,10 @@
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
     width: 95%;
+}
+
+#blog-header {
+    cursor: pointer;
 }
 
 @include media-query($on-laptop) {
@@ -326,6 +360,8 @@
     }
     .blogpost {
         text-align: left;
+        margin-bottom: 3px;
+        margin-top: 3px;
     }
 }
 

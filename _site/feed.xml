@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nathan Ju 🚂</title>
-    <description>I study computer science at UIUC. This summer, I will be researching at the IQC in Waterloo as part of the URA program.</description>
+    <description>I study computer science at UIUC. Last summer, I worked on problems in quantum complexity theory at the IQC in Waterloo as part of the URA program. I'm interested in computational complexity theory, and TCS more generally.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2020 12:34:26 -0600</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2020 12:34:26 -0600</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2020 14:31:15 -0600</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2020 14:31:15 -0600</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Cliffords in constant depth</title>
         <description>&lt;p&gt;Daniel Grier and Luke Schaeffer released a wonderful &lt;a href=&quot;https://arxiv.org/pdf/1911.02555.pdf&quot;&gt;paper&lt;/a&gt; on arXiv recently. In it, they  highlight some surprisingly stronger separations
-between QNC&lt;sup&gt;0&lt;/sup&gt;, constant depth quantum circuits, and other classes of constant and logarithmic depth classical circuits. For background, 
-Bravyi, et al.’s major result two years ago was a strict separation between QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;0&lt;/sup&gt; by a problem called the “Hidden
-Linear Function problem.” But Grier and Schaeffer prove a stronger and surprising separation between  QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;1&lt;/sup&gt;, 
-logarithmic depth bounded fan-in classical circuits. And it was my first time seeing the use of Barrington’s Theorem, and it’s amazing just how 
+between QNC&lt;sup&gt;0&lt;/sup&gt;, constant depth quantum circuits, and constant depth classical circuits. For background, 
+Bravyi, et al.’s major result two years ago was a strict separation between (noiseless) QNC&lt;sup&gt;0&lt;/sup&gt; and NC&lt;sup&gt;0&lt;/sup&gt; circuits by a problem called the “Hidden
+Linear Function problem.” But Grier and Schaeffer prove a stronger separation between (noiseless) QNC&lt;sup&gt;0&lt;/sup&gt; and AC&lt;sup&gt;0&lt;/sup&gt;[p] circuits in their new paper. And it was my first time seeing the use of Barrington’s Theorem, and it’s amazing just how 
 general but powerful it is!&lt;/p&gt;
 
-&lt;p&gt;In it they point to a fairly old theorem in measurement-based quantum computation which I was even more surprised by. In short, it’s that
+&lt;p&gt;In their paper, they point to a fairly old theorem in measurement-based quantum computation which I was even more surprised by. In short, it’s that
 any Clifford circuit can be implemented in constant depth by preparation of a constant degree grid state and constant depth MBQC if you’re willing to incur detectable Pauli errors.&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Nov 2019 00:09:00 -0600</pubDate>
