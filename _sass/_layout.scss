@@ -254,7 +254,7 @@
 }
 
 .titlepost {
-    height: $spacing-unit;
+    /* height: $spacing-unit; */
     font-family: $cutive;
     width: 90%;
     float: left;
@@ -353,6 +353,7 @@
     letter-spacing: -1px;
     margin-bottom: 3px;
     float: left;
+    width: 95%;
     color: #505050;
     &,
     &:visited {

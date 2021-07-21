@@ -66,12 +66,11 @@ layout: default
             </ul><br>
             
             <div class="dummy">
-                <div class="dummy blogpost">
-                    📝 <span class="big" id="blog-header">Blog</span>
+                <div class="dummy blogspot">
+                    📝 <span class="big" id="blog-header">Blog </span>
                 </div>
             </div>
-        
-            <ul class="post-list" id="blog-list">{% for post in paginator.posts %}
+            <ul class="post-list" id="post-list">{% for post in paginator.posts %}
                 <li class="titlepost">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </li>
