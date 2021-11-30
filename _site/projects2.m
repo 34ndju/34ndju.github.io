@@ -56,6 +56,15 @@ Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
     <link href="/favicon.png" rel="icon">
     <link href="http://localhost:4000/projects2.m" rel="canonical">
     <link rel="alternate" type="application/rss+xml" title="Nathan Ju 🚂" href="http://localhost:4000/feed.xml">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRL00SZYL4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RRL00SZYL4');
+    </script>
   </head>
 
   <!--
