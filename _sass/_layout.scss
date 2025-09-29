@@ -274,29 +274,70 @@
 .titlepaper {
    /* height: $spacing-unit;*/
     font-family: $cutive;
-    width: 90%;
+    width: 100%;
     float: left;
     padding-top: $spacing-unit / 6;
 }
 
+/* Add separation between papers: add space before each subsequent title */
+.post-list .titlepaper {
+    margin-top: $spacing-unit / 1.5;
+}
+
+.post-list .titlepaper:first-of-type {
+    margin-top: $spacing-unit / 1.5;
+}
+
 .authorpaper {
-    height: $spacing-unit;
+    /* allow auto height to prevent overflow */
     font-family: $vt323;
-    width: 70%;
+    width: 90%;
     float:left;
     padding-top: $spacing-unit / 6;
+    padding-bottom: $spacing-unit / 6;
     text-align: left;
 }
 
 .venuepaper {
-    height: $spacing-unit;
+    /* allow auto height; push border lower for wrapped lines */
     font-family: $vt323;
     font-style: italic;
-    width: 90%;
+    width: 100%;
     float: left;
     border-bottom: 1px dashed #E1E2E3;
     padding-top: $spacing-unit / 18;
+    padding-bottom: $spacing-unit / 6;
     text-align: left;
+    word-break: break-word;
+}
+
+/* Ensure papers list uses the same font as the main intro text */
+.post-list .titlepaper .post-link,
+.post-list .authorpaper,
+.post-list .venuepaper,
+.post-list .venuepaper .post-meta,
+.post-list .venuepaper a,
+.post-list .authorpaper .post-meta {
+    font-family: $cutive;
+    font-size: $base-font-size;
+}
+
+/* Remove italics from venue lines to match intro text */
+.post-list .venuepaper {
+    font-style: normal;
+}
+
+/* Avoid oversized title links in papers section */
+.post-list .titlepaper .post-link {
+    font-size: $base-font-size;
+    display: inline;
+    font-weight: 900;
+}
+
+/* Add a gray top bar to the first venue line of each paper */
+.post-list .titlepaper + .authorpaper + .venuepaper {
+    border-top: 1px dashed #E1E2E3;
+    padding-top: $spacing-unit / 6;
 }
 
 .content-col-wrapper {
@@ -366,9 +407,20 @@
     }
 }
 
+/* Remove underline background from the "Papers" header only */
+.dummy .blogpost .big {
+    background: none;
+}
+
 .home {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* Increase font size for the intro text on the home page */
+.home .columnr {
+    font-size: $base-font-size * 1.15;
+    line-height: $base-line-height * 1.1;
 }
 
 /**
