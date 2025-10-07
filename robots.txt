@@ -3,3 +3,4 @@ Disallow:
 
 User-agent: *
 Allow: /
+Disallow: /research/SW*
