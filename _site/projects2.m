@@ -50,7 +50,7 @@ Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
   	  Founder Tracker  
 Internal tool for [Contrary Capital](https://contrarycap.com) to surf...">
     <meta property="twitter:image:src" content="http://i.imgbox.com/FVXzVeXv.png">
-    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/css/main.css?v=1794649837" rel="stylesheet" type="text/css">
     <link href="https://plus.google.com/+" rel="author">
     <link href="https://plus.google.com/+" rel="publisher">
     <link href="/favicon.png" rel="icon">
