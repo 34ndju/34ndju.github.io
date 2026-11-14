@@ -271,73 +271,108 @@
     text-align: left;
 }
 
-.titlepaper {
-   /* height: $spacing-unit;*/
-    font-family: $cutive;
+/* Papers are grouped into complete rows with a quiet metadata hierarchy. */
+.home .blogpost .big {
+    font-size: $base-font-size * 1.24;
+}
+
+.home .papers-note {
+    font-size: 0.7em;
+}
+
+.home .papers-section {
+    position: relative;
+    isolation: isolate;
+    clear: both;
+    display: flow-root;
+    margin: 24px -20px 0;
+    padding: 24px 20px;
+    background-color: #F5F5F5;
+}
+
+.home .papers-section::before,
+.home .teaching::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 0 100vmax #F5F5F5;
+    clip-path: inset(0 -100vmax);
+    pointer-events: none;
+}
+
+.home .papers-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #E5E5E5;
+    box-shadow: 0 0 0 100vmax #E5E5E5;
+    clip-path: inset(0 -100vmax);
+    pointer-events: none;
+}
+
+.home .papers-section > .blogpost {
+    float: none;
     width: 100%;
-    float: left;
-    padding-top: $spacing-unit / 6;
+    margin-bottom: 18px;
 }
 
-/* Add separation between papers: add space before each subsequent title */
-.post-list .titlepaper {
-    margin-top: $spacing-unit / 1.5;
-}
-
-.post-list .titlepaper:first-of-type {
-    margin-top: $spacing-unit / 1.5;
-}
-
-.authorpaper {
-    /* allow auto height to prevent overflow */
-    font-family: $vt323;
-    width: 90%;
-    float:left;
-    padding-top: $spacing-unit / 6;
-    padding-bottom: $spacing-unit / 6;
-    text-align: left;
-}
-
-.venuepaper {
-    /* allow auto height; push border lower for wrapped lines */
-    font-family: $vt323;
-    font-style: italic;
-    width: 100%;
-    float: left;
-    border-bottom: 1px dashed #E1E2E3;
-    padding-top: $spacing-unit / 18;
-    padding-bottom: $spacing-unit / 6;
-    text-align: left;
-    word-break: break-word;
-}
-
-/* Ensure papers list uses the same font as the main intro text */
-.post-list .titlepaper .post-link,
-.post-list .authorpaper,
-.post-list .venuepaper,
-.post-list .venuepaper .post-meta,
-.post-list .venuepaper a,
-.post-list .authorpaper .post-meta {
+.home .papers-list {
+    clear: both;
+    margin: 0 0 0 -12px;
+    padding: 0;
+    list-style: none;
     font-family: $cutive;
-    font-size: $base-font-size;
+    border-top: 1px dashed #b5b5b5;
 }
 
-/* Remove italics from venue lines to match intro text */
-.post-list .venuepaper {
-    font-style: normal;
+.home .paper-row {
+    padding: 24px 0 24px 12px;
+    border-bottom: 1px dashed #b5b5b5;
 }
 
-/* Avoid oversized title links in papers section */
-.post-list .titlepaper .post-link {
-    font-size: $base-font-size;
-    display: inline;
-    font-weight: 900;
+.home .paper-title {
+    display: inline-block;
+    color: #454545;
+    font-size: $base-font-size * 1.15;
+    font-weight: normal;
+    line-height: 1.45;
+
+    &:visited {
+        color: #454545;
+    }
+
+    &:hover,
+    &:focus-visible {
+        color: $link-color;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
 }
 
-/* Add a gray top bar to the first venue line of each paper */
-.post-list .titlepaper + .authorpaper + .venuepaper {
-    border-top: 1px dashed #E1E2E3;
-    padding-top: $spacing-unit / 6;
+.home .paper-details {
+    padding-left: 0;
+}
+
+.home .paper-authors {
+    margin: 6px 0 4px;
+    color: $date-color;
+    font-size: $base-font-size * 0.93;
+    line-height: 1.65;
+
+    strong {
+        color: #454545;
+    }
+}
+
+.home .paper-venues {
+    font-size: $base-font-size * 0.88;
+    line-height: 1.65;
+    overflow-wrap: break-word;
 }
 
 .content-col-wrapper {
@@ -417,9 +452,47 @@
     margin-right: 5px;
 }
 
-/* Increase font size for the intro text on the home page */
+/* Give long publication titles room without enlarging the portrait. */
+.home-layout .page-content {
+    padding-bottom: 0;
+}
+
+.home-layout .page-content > .wrapper {
+    box-sizing: border-box;
+    max-width: 1120px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.home-layout .content-col-wrapper {
+    margin-left: 0;
+}
+
+.home-layout .content-col,
+.home-layout .content-col > .dummy {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 801px) {
+    .home .row {
+        display: grid;
+        grid-template-columns: 300px minmax(0, 1fr);
+        gap: 40px;
+    }
+
+    .home .columnl,
+    .home .columnr {
+        float: none;
+        width: auto;
+    }
+}
+
+/* Intro text on the home page */
 .home .columnr {
-    font-size: $base-font-size * 1.15;
+    font-size: $base-font-size * 1.05;
     line-height: $base-line-height * 1.1;
 }
 
@@ -517,4 +590,65 @@
     font-size: 14px;
     color: #4B4B4B;
     text-align: center;
+}
+
+/* Teaching details retain the site's original typography and purple accent. */
+.home .teaching {
+    position: relative;
+    isolation: isolate;
+    clear: both;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #F5F5F5;
+}
+
+.home .teaching > .blogpost {
+    float: none;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.home .teaching-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 24px;
+    padding: 16px 0;
+    border-bottom: 1px dashed #b5b5b5;
+}
+
+.home .teaching > .blogpost + .teaching-entry {
+    border-top: 1px dashed #b5b5b5;
+}
+
+.home .teaching-entry p {
+    margin: 4px 0 0;
+}
+
+.home .teaching-role p {
+    color: $date-color;
+    font-size: $base-font-size;
+}
+
+.home .teaching-term {
+    display: block;
+    font-size: $small-font-size;
+    color: $date-color;
+}
+
+.home .teaching-award {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 4px 9px;
+    border-radius: 3px;
+    background-color: #eee9f3;
+    color: #7656a3;
+    font-size: $small-font-size;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .home .teaching-entry {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
 }

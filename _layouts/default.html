@@ -27,7 +27,7 @@
           /   |  \                /  |  \
          /.-./.-.|               /.-.|.-.\
   -->
-  <body>
+  <body{% if page.url == '/' %} class="home-layout"{% endif %}>
 {% include header.html %}
   <div class="page-content">
     <div class="wrapper">

@@ -179,6 +179,7 @@ Built a company in high school. Sales lead marketplace with 240,000 user-uploade
     <div class="wrapper-fit">
       <div class="footer-text">
         34ndju@gmail.com
+        <br><a href="https://scholar.google.com/citations?user=0O4aoCEAAAAJ&amp;hl=en">[google scholar]</a>
       </div>
     </div>
   </footer>
